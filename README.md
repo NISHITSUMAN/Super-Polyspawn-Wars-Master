@@ -2,8 +2,6 @@
 Space Shooter Game created and written entirely in Unity and C#.  
 Throwback to classic arcade-style space shooters.  
 
-![Screen shot](./spw_screenshot.png)
-
 ## REQUIREMENTS FOR DESKTOP PLAY:  
 * [Unity Game Engine](https://unity3d.com/)  
 * Download Source Code here, then Run or Build the project in Unity.  
