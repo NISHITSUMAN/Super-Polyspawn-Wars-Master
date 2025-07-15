@@ -25,7 +25,7 @@ public class Laser : MonoBehaviour {
         {
             // Speeds up the laser as it travels
             rb = GetComponent<Rigidbody2D>();
-            Vector2 vel = rb.linearVelocity;
+            Vector2 vel = rb.velocity;
             rb.AddForce(new Vector2(vel.x * .2f, vel.y * .2f));
 
             _speedUpTime = Time.time + 0.1f;

@@ -230,7 +230,7 @@ public class Player : MonoBehaviour {
             shipCenter = _centerGameObject;
 
             clone = (GameObject)Instantiate(_laserPrefab, new Vector3(shipCenter.transform.position.x + laserStartPos.x, shipCenter.transform.position.y + laserStartPos.y, 0), Quaternion.Euler(0, 0, laserAng));
-            clone.GetComponent<Rigidbody2D>().linearVelocity = laserDir;            
+            clone.GetComponent<Rigidbody2D>().velocity = laserDir;            
 
             if (canSpreadShot == true) {
                 spreadShot(laserAng);
@@ -375,7 +375,7 @@ public class Player : MonoBehaviour {
         Vector2 laserDirection = angleAndQuadrantToDirection(laserAng, laserQuadrant);
         Vector2 laserStartPos = laserStartPosition(laserDirection.x, laserDirection.y);
         laserclone = (GameObject)Instantiate(_laserPrefab, new Vector3(_centerGameObject.transform.position.x + laserStartPos.x, _centerGameObject.transform.position.y + laserStartPos.y, 0), Quaternion.Euler(0, 0, laserAng));
-        laserclone.GetComponent<Rigidbody2D>().linearVelocity = laserDirection;
+        laserclone.GetComponent<Rigidbody2D>().velocity = laserDirection;
     }
 
     // Main laser code

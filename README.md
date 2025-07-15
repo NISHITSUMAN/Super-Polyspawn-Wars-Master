@@ -1,6 +1,8 @@
-# SUPER POLYSPAWN WARS  MASTER
+# SUPER POLYSPAWN WARS  
 Space Shooter Game created and written entirely in Unity and C#.  
 Throwback to classic arcade-style space shooters.  
+
+![Screen shot](./spw_screenshot.png)
 
 ## REQUIREMENTS FOR DESKTOP PLAY:  
 * [Unity Game Engine](https://unity3d.com/)  
@@ -23,6 +25,7 @@ Throwback to classic arcade-style space shooters.
 * 30 FPS animations  
 
 ## CREDITS:  
+* Art and Animations: Isaac Kim  
 * Game Engine: [Unity](https://unity3d.com/)
 * Sounds: [JFXR](https://jfxr.frozenfractal.com)
 * Music: [Erik Skiff](http://ericskiff.com/music/)
