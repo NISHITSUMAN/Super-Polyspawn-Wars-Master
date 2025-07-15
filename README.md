@@ -25,7 +25,6 @@ Throwback to classic arcade-style space shooters.
 * 30 FPS animations  
 
 ## CREDITS:  
-* Art and Animations: Isaac Kim  
 * Game Engine: [Unity](https://unity3d.com/)
 * Sounds: [JFXR](https://jfxr.frozenfractal.com)
 * Music: [Erik Skiff](http://ericskiff.com/music/)
