@@ -1,4 +1,4 @@
-# SUPER POLYSPAWN WARS  
+# SUPER POLYSPAWN WARS  MASTER
 Space Shooter Game created and written entirely in Unity and C#.  
 Throwback to classic arcade-style space shooters.  
 
